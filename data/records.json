@@ -1,0 +1,773 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "judge": "j0",
+      "left": "i0",
+      "right": "i1",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0000"
+    },
+    {
+      "judge": "j0",
+      "left": "i1",
+      "right": "i2",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0001"
+    },
+    {
+      "judge": "j0",
+      "left": "i2",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0002"
+    },
+    {
+      "judge": "j0",
+      "left": "i3",
+      "right": "i4",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0003"
+    },
+    {
+      "judge": "j0",
+      "left": "i4",
+      "right": "i5",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0004"
+    },
+    {
+      "judge": "j0",
+      "left": "i5",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0005"
+    },
+    {
+      "judge": "j1",
+      "left": "i0",
+      "right": "i2",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0006"
+    },
+    {
+      "judge": "j1",
+      "left": "i1",
+      "right": "i3",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0007"
+    },
+    {
+      "judge": "j1",
+      "left": "i2",
+      "right": "i4",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0008"
+    },
+    {
+      "judge": "j1",
+      "left": "i3",
+      "right": "i5",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0009"
+    },
+    {
+      "judge": "j1",
+      "left": "i4",
+      "right": "i0",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0010"
+    },
+    {
+      "judge": "j1",
+      "left": "i5",
+      "right": "i1",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0011"
+    },
+    {
+      "judge": "j2",
+      "left": "i0",
+      "right": "i3",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0012"
+    },
+    {
+      "judge": "j2",
+      "left": "i1",
+      "right": "i4",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0013"
+    },
+    {
+      "judge": "j2",
+      "left": "i2",
+      "right": "i5",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0014"
+    },
+    {
+      "judge": "j2",
+      "left": "i3",
+      "right": "i0",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0015"
+    },
+    {
+      "judge": "j2",
+      "left": "i4",
+      "right": "i1",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0016"
+    },
+    {
+      "judge": "j2",
+      "left": "i5",
+      "right": "i2",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0017"
+    },
+    {
+      "judge": "j3",
+      "left": "i0",
+      "right": "i4",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0018"
+    },
+    {
+      "judge": "j3",
+      "left": "i1",
+      "right": "i5",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0019"
+    },
+    {
+      "judge": "j3",
+      "left": "i2",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0020"
+    },
+    {
+      "judge": "j3",
+      "left": "i3",
+      "right": "i1",
+      "outcome": "left",
+      "round": 1,
+      "id": "r0021"
+    },
+    {
+      "judge": "j3",
+      "left": "i4",
+      "right": "i2",
+      "outcome": "right",
+      "round": 1,
+      "id": "r0022"
+    },
+    {
+      "judge": "j3",
+      "left": "i5",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 1,
+      "id": "r0023"
+    },
+    {
+      "judge": "j4",
+      "left": "i0",
+      "right": "i1",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0024"
+    },
+    {
+      "judge": "j4",
+      "left": "i1",
+      "right": "i2",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0025"
+    },
+    {
+      "judge": "j4",
+      "left": "i2",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0026"
+    },
+    {
+      "judge": "j4",
+      "left": "i3",
+      "right": "i4",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0027"
+    },
+    {
+      "judge": "j4",
+      "left": "i4",
+      "right": "i5",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0028"
+    },
+    {
+      "judge": "j4",
+      "left": "i5",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0029"
+    },
+    {
+      "judge": "j5",
+      "left": "i0",
+      "right": "i2",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0030"
+    },
+    {
+      "judge": "j5",
+      "left": "i1",
+      "right": "i3",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0031"
+    },
+    {
+      "judge": "j5",
+      "left": "i2",
+      "right": "i4",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0032"
+    },
+    {
+      "judge": "j5",
+      "left": "i3",
+      "right": "i5",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0033"
+    },
+    {
+      "judge": "j5",
+      "left": "i4",
+      "right": "i0",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0034"
+    },
+    {
+      "judge": "j5",
+      "left": "i5",
+      "right": "i1",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0035"
+    },
+    {
+      "judge": "j6",
+      "left": "i0",
+      "right": "i3",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0036"
+    },
+    {
+      "judge": "j6",
+      "left": "i1",
+      "right": "i4",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0037"
+    },
+    {
+      "judge": "j6",
+      "left": "i2",
+      "right": "i5",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0038"
+    },
+    {
+      "judge": "j6",
+      "left": "i3",
+      "right": "i0",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0039"
+    },
+    {
+      "judge": "j6",
+      "left": "i4",
+      "right": "i1",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0040"
+    },
+    {
+      "judge": "j6",
+      "left": "i5",
+      "right": "i2",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0041"
+    },
+    {
+      "judge": "j7",
+      "left": "i0",
+      "right": "i4",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0042"
+    },
+    {
+      "judge": "j7",
+      "left": "i1",
+      "right": "i5",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0043"
+    },
+    {
+      "judge": "j7",
+      "left": "i2",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0044"
+    },
+    {
+      "judge": "j7",
+      "left": "i3",
+      "right": "i1",
+      "outcome": "left",
+      "round": 2,
+      "id": "r0045"
+    },
+    {
+      "judge": "j7",
+      "left": "i4",
+      "right": "i2",
+      "outcome": "right",
+      "round": 2,
+      "id": "r0046"
+    },
+    {
+      "judge": "j7",
+      "left": "i5",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 2,
+      "id": "r0047"
+    },
+    {
+      "judge": "j8",
+      "left": "i0",
+      "right": "i1",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0048"
+    },
+    {
+      "judge": "j8",
+      "left": "i1",
+      "right": "i2",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0049"
+    },
+    {
+      "judge": "j8",
+      "left": "i2",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0050"
+    },
+    {
+      "judge": "j8",
+      "left": "i3",
+      "right": "i4",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0051"
+    },
+    {
+      "judge": "j8",
+      "left": "i4",
+      "right": "i5",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0052"
+    },
+    {
+      "judge": "j8",
+      "left": "i5",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0053"
+    },
+    {
+      "judge": "j9",
+      "left": "i0",
+      "right": "i2",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0054"
+    },
+    {
+      "judge": "j9",
+      "left": "i1",
+      "right": "i3",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0055"
+    },
+    {
+      "judge": "j9",
+      "left": "i2",
+      "right": "i4",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0056"
+    },
+    {
+      "judge": "j9",
+      "left": "i3",
+      "right": "i5",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0057"
+    },
+    {
+      "judge": "j9",
+      "left": "i4",
+      "right": "i0",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0058"
+    },
+    {
+      "judge": "j9",
+      "left": "i5",
+      "right": "i1",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0059"
+    },
+    {
+      "judge": "j10",
+      "left": "i0",
+      "right": "i3",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0060"
+    },
+    {
+      "judge": "j10",
+      "left": "i1",
+      "right": "i4",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0061"
+    },
+    {
+      "judge": "j10",
+      "left": "i2",
+      "right": "i5",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0062"
+    },
+    {
+      "judge": "j10",
+      "left": "i3",
+      "right": "i0",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0063"
+    },
+    {
+      "judge": "j10",
+      "left": "i4",
+      "right": "i1",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0064"
+    },
+    {
+      "judge": "j10",
+      "left": "i5",
+      "right": "i2",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0065"
+    },
+    {
+      "judge": "j11",
+      "left": "i0",
+      "right": "i4",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0066"
+    },
+    {
+      "judge": "j11",
+      "left": "i1",
+      "right": "i5",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0067"
+    },
+    {
+      "judge": "j11",
+      "left": "i2",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0068"
+    },
+    {
+      "judge": "j11",
+      "left": "i3",
+      "right": "i1",
+      "outcome": "left",
+      "round": 3,
+      "id": "r0069"
+    },
+    {
+      "judge": "j11",
+      "left": "i4",
+      "right": "i2",
+      "outcome": "right",
+      "round": 3,
+      "id": "r0070"
+    },
+    {
+      "judge": "j11",
+      "left": "i5",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 3,
+      "id": "r0071"
+    },
+    {
+      "judge": "j12",
+      "left": "i0",
+      "right": "i1",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0072"
+    },
+    {
+      "judge": "j12",
+      "left": "i1",
+      "right": "i2",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0073"
+    },
+    {
+      "judge": "j12",
+      "left": "i2",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0074"
+    },
+    {
+      "judge": "j12",
+      "left": "i3",
+      "right": "i4",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0075"
+    },
+    {
+      "judge": "j12",
+      "left": "i4",
+      "right": "i5",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0076"
+    },
+    {
+      "judge": "j12",
+      "left": "i5",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0077"
+    },
+    {
+      "judge": "j13",
+      "left": "i0",
+      "right": "i2",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0078"
+    },
+    {
+      "judge": "j13",
+      "left": "i1",
+      "right": "i3",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0079"
+    },
+    {
+      "judge": "j13",
+      "left": "i2",
+      "right": "i4",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0080"
+    },
+    {
+      "judge": "j13",
+      "left": "i3",
+      "right": "i5",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0081"
+    },
+    {
+      "judge": "j13",
+      "left": "i4",
+      "right": "i0",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0082"
+    },
+    {
+      "judge": "j13",
+      "left": "i5",
+      "right": "i1",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0083"
+    },
+    {
+      "judge": "j14",
+      "left": "i0",
+      "right": "i3",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0084"
+    },
+    {
+      "judge": "j14",
+      "left": "i1",
+      "right": "i4",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0085"
+    },
+    {
+      "judge": "j14",
+      "left": "i2",
+      "right": "i5",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0086"
+    },
+    {
+      "judge": "j14",
+      "left": "i3",
+      "right": "i0",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0087"
+    },
+    {
+      "judge": "j14",
+      "left": "i4",
+      "right": "i1",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0088"
+    },
+    {
+      "judge": "j14",
+      "left": "i5",
+      "right": "i2",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0089"
+    },
+    {
+      "judge": "j15",
+      "left": "i0",
+      "right": "i4",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0090"
+    },
+    {
+      "judge": "j15",
+      "left": "i1",
+      "right": "i5",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0091"
+    },
+    {
+      "judge": "j15",
+      "left": "i2",
+      "right": "i0",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0092"
+    },
+    {
+      "judge": "j15",
+      "left": "i3",
+      "right": "i1",
+      "outcome": "left",
+      "round": 4,
+      "id": "r0093"
+    },
+    {
+      "judge": "j15",
+      "left": "i4",
+      "right": "i2",
+      "outcome": "right",
+      "round": 4,
+      "id": "r0094"
+    },
+    {
+      "judge": "j15",
+      "left": "i5",
+      "right": "i3",
+      "outcome": "tie",
+      "round": 4,
+      "id": "r0095"
+    }
+  ]
+}

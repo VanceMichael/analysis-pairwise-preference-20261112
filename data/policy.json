@@ -1,0 +1,10 @@
+{
+  "topK": 3,
+  "regularization": [
+    0.1,
+    1,
+    10
+  ],
+  "judgeCap": 5,
+  "seed": 31
+}

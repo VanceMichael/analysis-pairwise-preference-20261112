@@ -1,0 +1,17 @@
+[
+  {
+    "key": "left",
+    "count": 32,
+    "sum": 80
+  },
+  {
+    "key": "right",
+    "count": 32,
+    "sum": 80
+  },
+  {
+    "key": "tie",
+    "count": 32,
+    "sum": 80
+  }
+]
