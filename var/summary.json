@@ -1,0 +1,26 @@
+{
+  "count": 96,
+  "groupBy": "outcome",
+  "groups": [
+    {
+      "count": 32,
+      "judges": 16,
+      "key": "left",
+      "sum": 80
+    },
+    {
+      "count": 32,
+      "judges": 16,
+      "key": "right",
+      "sum": 80
+    },
+    {
+      "count": 32,
+      "judges": 16,
+      "key": "tie",
+      "sum": 80
+    }
+  ],
+  "inputFingerprint": "253c2d86f93fd9c2914dbb0bd43c9e9ff4f00ee6f42214fd368340a3a713f8ab",
+  "valueField": "round"
+}

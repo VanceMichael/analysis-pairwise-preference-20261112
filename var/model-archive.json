@@ -1,0 +1,1533 @@
+{
+  "archiveVersion": 1,
+  "canonicalFingerprint": "9a4b5969e1cd463534ece8dc7a7011f01d1c145dcf2177a258b2dbb08b273712",
+  "createdAt": "2026-11-14T22:56:58.567Z",
+  "dataFingerprint": "253c2d86f93fd9c2914dbb0bd43c9e9ff4f00ee6f42214fd368340a3a713f8ab",
+  "itemDictionary": [
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i0"
+    },
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i1"
+    },
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i2"
+    },
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i3"
+    },
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i4"
+    },
+    {
+      "component": 0,
+      "componentMembers": [
+        "i0",
+        "i1",
+        "i2",
+        "i3",
+        "i4",
+        "i5"
+      ],
+      "item": "i5"
+    }
+  ],
+  "judgeTreatment": {
+    "clusteredBootstrap": {
+      "failed": 0,
+      "replicates": 1000,
+      "requested": 1000,
+      "resamplingUnit": "评委整组（同一评委的全部比较一起抽，重复比较不冒充独立评委）",
+      "seed": 31
+    },
+    "judgeCap": 5,
+    "judges": [
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j0",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j1",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j10",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j11",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j12",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j13",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j14",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j15",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j2",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j3",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j4",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j5",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j6",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j7",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j8",
+        "rawComparisons": 6
+      },
+      {
+        "effectiveComparisons": 5,
+        "effectiveWeight": 0.8333333333333334,
+        "judge": "j9",
+        "rawComparisons": 6
+      }
+    ],
+    "rule": "同一评委有效权重 = min(1, judgeCap / 该评委比较数)，单评委有效比较数封顶 5"
+  },
+  "parameterConstraints": {
+    "ability": {
+      "constraint": "每个连通分量内 sum(beta)=0",
+      "name": "beta",
+      "prior": {
+        "family": "N(beta; 0, 1/lambda)",
+        "lambda": 1
+      },
+      "separationHandling": "完全分离时无正则 MLE 发散；高斯先验把参数收缩到有限值，强度敏感性见 sensitivity"
+    },
+    "componentConstraint": "每个连通分量内 beta 之和为零；跨分量不定义共同尺度",
+    "family": "Davidson-BradleyTerry-ties",
+    "identifiability": "断开分量之间不存在可识别的相对能力，档案不提供全局总榜",
+    "tie": {
+      "bootstrap": {
+        "mean": 0.9450819620578529,
+        "q025": 0.7619006271940043,
+        "q50": 0.9300736705671094,
+        "q975": 1.2432028088018832,
+        "replicates": 1000,
+        "sd": 0.1200658487486822
+      },
+      "eta": -0.006556025830907719,
+      "name": "theta",
+      "prior": {
+        "family": "log-normal via N(eta; 0, 1/lambdaEta)",
+        "lambdaEta": 1
+      },
+      "value": 0.9934654180187048
+    }
+  },
+  "policy": {
+    "bootstrapReplicates": 1000,
+    "judgeCap": 5,
+    "lambdaEta": 1,
+    "minComparisons": 3,
+    "primaryLambda": 1,
+    "regularization": [
+      0.1,
+      1,
+      10
+    ],
+    "seed": 31,
+    "suggestionCount": 5,
+    "topK": 3
+  },
+  "recordIds": [
+    "r0000",
+    "r0001",
+    "r0002",
+    "r0003",
+    "r0004",
+    "r0005",
+    "r0006",
+    "r0007",
+    "r0008",
+    "r0009",
+    "r0010",
+    "r0011",
+    "r0012",
+    "r0013",
+    "r0014",
+    "r0015",
+    "r0016",
+    "r0017",
+    "r0018",
+    "r0019",
+    "r0020",
+    "r0021",
+    "r0022",
+    "r0023",
+    "r0024",
+    "r0025",
+    "r0026",
+    "r0027",
+    "r0028",
+    "r0029",
+    "r0030",
+    "r0031",
+    "r0032",
+    "r0033",
+    "r0034",
+    "r0035",
+    "r0036",
+    "r0037",
+    "r0038",
+    "r0039",
+    "r0040",
+    "r0041",
+    "r0042",
+    "r0043",
+    "r0044",
+    "r0045",
+    "r0046",
+    "r0047",
+    "r0048",
+    "r0049",
+    "r0050",
+    "r0051",
+    "r0052",
+    "r0053",
+    "r0054",
+    "r0055",
+    "r0056",
+    "r0057",
+    "r0058",
+    "r0059",
+    "r0060",
+    "r0061",
+    "r0062",
+    "r0063",
+    "r0064",
+    "r0065",
+    "r0066",
+    "r0067",
+    "r0068",
+    "r0069",
+    "r0070",
+    "r0071",
+    "r0072",
+    "r0073",
+    "r0074",
+    "r0075",
+    "r0076",
+    "r0077",
+    "r0078",
+    "r0079",
+    "r0080",
+    "r0081",
+    "r0082",
+    "r0083",
+    "r0084",
+    "r0085",
+    "r0086",
+    "r0087",
+    "r0088",
+    "r0089",
+    "r0090",
+    "r0091",
+    "r0092",
+    "r0093",
+    "r0094",
+    "r0095"
+  ],
+  "report": {
+    "components": [
+      {
+        "component": 0,
+        "connected": true,
+        "members": [
+          "i0",
+          "i1",
+          "i2",
+          "i3",
+          "i4",
+          "i5"
+        ],
+        "order": [
+          "i0",
+          "i3",
+          "i5",
+          "i2",
+          "i1",
+          "i4"
+        ],
+        "rankedItems": [
+          {
+            "beta": 1.0884086407697624,
+            "betaCi95": [
+              0.823301487314281,
+              1.1650664797476415
+            ],
+            "credibleRank": true,
+            "item": "i0",
+            "pointEstimateTie": true,
+            "rank": 1,
+            "rankCI95": [
+              1,
+              2
+            ],
+            "rankProbability": {
+              "1": 0.499,
+              "2": 0.496,
+              "3": 0.003,
+              "4": 0.002,
+              "5": 0,
+              "6": 0
+            },
+            "seAsymptotic": 0.29385439067992575,
+            "topKProbability": 0.998,
+            "warnings": []
+          },
+          {
+            "beta": 1.0884086407697624,
+            "betaCi95": [
+              0.823301487314281,
+              1.1650664797476415
+            ],
+            "credibleRank": true,
+            "item": "i3",
+            "pointEstimateTie": true,
+            "rank": 2,
+            "rankCI95": [
+              1,
+              2
+            ],
+            "rankProbability": {
+              "1": 0.47,
+              "2": 0.528,
+              "3": 0,
+              "4": 0.002,
+              "5": 0,
+              "6": 0
+            },
+            "seAsymptotic": 0.2938543906799257,
+            "topKProbability": 0.998,
+            "warnings": []
+          },
+          {
+            "beta": 0.29070170346189683,
+            "betaCi95": [
+              -0.10611028619190921,
+              0.6319783453220887
+            ],
+            "credibleRank": true,
+            "item": "i5",
+            "pointEstimateTie": false,
+            "rank": 3,
+            "rankCI95": [
+              3,
+              4
+            ],
+            "rankProbability": {
+              "1": 0.002,
+              "2": 0.001,
+              "3": 0.53,
+              "4": 0.467,
+              "5": 0,
+              "6": 0
+            },
+            "seAsymptotic": 0.25498500539202046,
+            "topKProbability": 0.533,
+            "warnings": []
+          },
+          {
+            "beta": 0.2907017034618968,
+            "betaCi95": [
+              -0.10611028619190925,
+              0.6319783453220887
+            ],
+            "credibleRank": true,
+            "item": "i2",
+            "pointEstimateTie": false,
+            "rank": 4,
+            "rankCI95": [
+              3,
+              4
+            ],
+            "rankProbability": {
+              "1": 0.001,
+              "2": 0.004,
+              "3": 0.474,
+              "4": 0.521,
+              "5": 0,
+              "6": 0
+            },
+            "seAsymptotic": 0.2549850053920205,
+            "topKProbability": 0.479,
+            "warnings": []
+          },
+          {
+            "beta": -1.3791103442316592,
+            "betaCi95": [
+              -1.5674142298129174,
+              -1.001625254185247
+            ],
+            "credibleRank": true,
+            "item": "i1",
+            "pointEstimateTie": true,
+            "rank": 5,
+            "rankCI95": [
+              5,
+              6
+            ],
+            "rankProbability": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0.531,
+              "6": 0.469
+            },
+            "seAsymptotic": 0.32594469929857756,
+            "topKProbability": 0,
+            "warnings": []
+          },
+          {
+            "beta": -1.3791103442316592,
+            "betaCi95": [
+              -1.5674142298129172,
+              -1.001625254185247
+            ],
+            "credibleRank": true,
+            "item": "i4",
+            "pointEstimateTie": true,
+            "rank": 6,
+            "rankCI95": [
+              5,
+              6
+            ],
+            "rankProbability": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0.472,
+              "6": 0.528
+            },
+            "seAsymptotic": 0.32594469929857756,
+            "topKProbability": 0,
+            "warnings": []
+          }
+        ],
+        "sensitivity": {
+          "component": 0,
+          "grid": [
+            {
+              "lambda": 0.1,
+              "order": [
+                "i3",
+                "i0",
+                "i2",
+                "i5",
+                "i4",
+                "i1"
+              ],
+              "orderIdentical": false,
+              "spearmanVsPrimary": 0.9428571428571428
+            },
+            {
+              "lambda": 1,
+              "order": [
+                "i3",
+                "i0",
+                "i5",
+                "i2",
+                "i4",
+                "i1"
+              ],
+              "orderIdentical": true,
+              "spearmanVsPrimary": 1
+            },
+            {
+              "lambda": 10,
+              "order": [
+                "i3",
+                "i0",
+                "i2",
+                "i5",
+                "i4",
+                "i1"
+              ],
+              "orderIdentical": false,
+              "spearmanVsPrimary": 0.9428571428571428
+            }
+          ],
+          "orderingStableAcrossGrid": false
+        },
+        "tiedGroups": [
+          [
+            "i0",
+            "i3"
+          ],
+          [
+            "i1",
+            "i4"
+          ]
+        ],
+        "topK": 3
+      }
+    ],
+    "coverage": {
+      "items": [
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i0",
+          "rawComparisons": 32,
+          "undercovered": false
+        },
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i1",
+          "rawComparisons": 32,
+          "undercovered": false
+        },
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i2",
+          "rawComparisons": 32,
+          "undercovered": false
+        },
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i3",
+          "rawComparisons": 32,
+          "undercovered": false
+        },
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i4",
+          "rawComparisons": 32,
+          "undercovered": false
+        },
+        {
+          "component": 0,
+          "distinctJudges": 16,
+          "distinctOpponents": 5,
+          "effectiveComparisons": 26.666666666666657,
+          "gaps": [],
+          "item": "i5",
+          "rawComparisons": 32,
+          "undercovered": false
+        }
+      ],
+      "minComparisons": 3,
+      "undercoveredItems": []
+    },
+    "dataInfo": {
+      "componentCount": 1,
+      "itemCount": 6,
+      "judgeCount": 16,
+      "outcomeCounts": {
+        "left": 32,
+        "right": 32,
+        "tie": 32
+      },
+      "recordCount": 96
+    },
+    "model": {
+      "abilityParameter": {
+        "constraint": "每个连通分量内 sum(beta)=0",
+        "name": "beta",
+        "prior": {
+          "family": "N(beta; 0, 1/lambda)",
+          "lambda": 1
+        },
+        "separationHandling": "完全分离时无正则 MLE 发散；高斯先验把参数收缩到有限值，强度敏感性见 sensitivity"
+      },
+      "family": "Davidson-BradleyTerry-ties",
+      "fit": {
+        "converged": true,
+        "iterations": 5,
+        "nll": 56.03822643398501,
+        "objective": 59.209334115987055,
+        "penalty": 3.171107682002044
+      },
+      "judgeTreatment": {
+        "clusteredBootstrap": {
+          "failed": 0,
+          "replicates": 1000,
+          "requested": 1000,
+          "resamplingUnit": "评委整组（同一评委的全部比较一起抽，重复比较不冒充独立评委）",
+          "seed": 31
+        },
+        "judgeCap": 5,
+        "judges": [
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j0",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j1",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j10",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j11",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j12",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j13",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j14",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j15",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j2",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j3",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j4",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j5",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j6",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j7",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j8",
+            "rawComparisons": 6
+          },
+          {
+            "effectiveComparisons": 5,
+            "effectiveWeight": 0.8333333333333334,
+            "judge": "j9",
+            "rawComparisons": 6
+          }
+        ],
+        "rule": "同一评委有效权重 = min(1, judgeCap / 该评委比较数)，单评委有效比较数封顶 5"
+      },
+      "outcomeEncoding": {
+        "left": "left 商品获胜",
+        "right": "right 商品获胜",
+        "tie": "平局（独立第三类结果，不拆为两条半胜）"
+      },
+      "reference": "Davidson (1970), The Analysis of Frequency Data in Which Some Observations are Paired",
+      "tieParameter": {
+        "bootstrap": {
+          "mean": 0.9450819620578529,
+          "q025": 0.7619006271940043,
+          "q50": 0.9300736705671094,
+          "q975": 1.2432028088018832,
+          "replicates": 1000,
+          "sd": 0.1200658487486822
+        },
+        "eta": -0.006556025830907719,
+        "name": "theta",
+        "prior": {
+          "family": "log-normal via N(eta; 0, 1/lambdaEta)",
+          "lambdaEta": 1
+        },
+        "value": 0.9934654180187048
+      }
+    },
+    "pairwise": [
+      {
+        "contrast": {
+          "ci95": [
+            1.4340124312890028,
+            3.501025538713841
+          ],
+          "d": 2.467518985001422,
+          "excludesZero": true,
+          "se": 0.527299262098173
+        },
+        "items": [
+          "i0",
+          "i1"
+        ],
+        "model": {
+          "aWins": 0.85057741519515,
+          "bWins": 0.006115811463634903,
+          "bootstrapCi95": {
+            "aWins": [
+              0.8082335603935925,
+              0.8473653785203117
+            ],
+            "bWins": [
+              0.0046107619870814345,
+              0.015747169485151372
+            ],
+            "tie": [
+              0.14723977221161913,
+              0.17825465771018192
+            ]
+          },
+          "tie": 0.14330677334121503
+        },
+        "observed": {
+          "aWinRate": 1,
+          "aWins": 4,
+          "bWins": 0,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i0 > i1",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            0.015739976460227845,
+            1.5796738981555034
+          ],
+          "d": 0.7977069373078656,
+          "excludesZero": true,
+          "se": 0.3989627351263458
+        },
+        "items": [
+          "i0",
+          "i2"
+        ],
+        "model": {
+          "aWins": 0.4767217476639729,
+          "bWins": 0.09669088213962818,
+          "bootstrapCi95": {
+            "aWins": [
+              0.3269071812133393,
+              0.6290854620364141
+            ],
+            "bWins": [
+              0.05551068162940587,
+              0.18820404613474387
+            ],
+            "tie": [
+              0.31540385633417994,
+              0.5084518575762118
+            ]
+          },
+          "tie": 0.426587370196399
+        },
+        "observed": {
+          "aWinRate": 0.5,
+          "aWins": 4,
+          "bWins": 0,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0.5,
+          "ties": 4
+        },
+        "ordering": "i0 > i2",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -0.7615654718597812,
+            0.7615654718597812
+          ],
+          "d": 0,
+          "excludesZero": false,
+          "se": 0.38855381217335777
+        },
+        "items": [
+          "i0",
+          "i3"
+        ],
+        "model": {
+          "aWins": 0.25081950029358796,
+          "bWins": 0.25081950029358796,
+          "bootstrapCi95": {
+            "aWins": [
+              0.22289558395616263,
+              0.2837844497486205
+            ],
+            "bWins": [
+              0.22289558395616263,
+              0.2837844497486206
+            ],
+            "tie": [
+              0.4324311005027588,
+              0.5542088320876747
+            ]
+          },
+          "tie": 0.49836099941282413
+        },
+        "observed": {
+          "aWinRate": 0.5,
+          "aWins": 4,
+          "bWins": 4,
+          "comparisons": 8,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i0 = i3",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            1.4476198954006498,
+            3.4874180746021937
+          ],
+          "d": 2.467518985001422,
+          "excludesZero": true,
+          "se": 0.5203566783677408
+        },
+        "items": [
+          "i0",
+          "i4"
+        ],
+        "model": {
+          "aWins": 0.85057741519515,
+          "bWins": 0.006115811463634903,
+          "bootstrapCi95": {
+            "aWins": [
+              0.8082335603935925,
+              0.8473653785203121
+            ],
+            "bWins": [
+              0.0046107619870814345,
+              0.015747169485151372
+            ],
+            "tie": [
+              0.14723977221161913,
+              0.17825465771018192
+            ]
+          },
+          "tie": 0.14330677334121503
+        },
+        "observed": {
+          "aWinRate": 1,
+          "aWins": 8,
+          "bWins": 0,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i0 > i4",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -0.02071196812415721,
+            1.6161258427398884
+          ],
+          "d": 0.7977069373078656,
+          "excludesZero": false,
+          "se": 0.4175606660367463
+        },
+        "items": [
+          "i0",
+          "i5"
+        ],
+        "model": {
+          "aWins": 0.4767217476639729,
+          "bWins": 0.09669088213962818,
+          "bootstrapCi95": {
+            "aWins": [
+              0.3269071812133393,
+              0.6290854620364141
+            ],
+            "bWins": [
+              0.05551068162940587,
+              0.18820404613474387
+            ],
+            "tie": [
+              0.31540385633417994,
+              0.5084518575762118
+            ]
+          },
+          "tie": 0.426587370196399
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 0,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 1,
+          "ties": 4
+        },
+        "ordering": "i0 > i5",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -2.5934154256678603,
+            -0.7462086697192519
+          ],
+          "d": -1.669812047693556,
+          "excludesZero": true,
+          "se": 0.471226213252196
+        },
+        "items": [
+          "i1",
+          "i2"
+        ],
+        "model": {
+          "aWins": 0.025149989907073768,
+          "bWins": 0.7094440184183346,
+          "bootstrapCi95": {
+            "aWins": [
+              0.010269260937075206,
+              0.08986023300939061
+            ],
+            "bWins": [
+              0.5387682053350121,
+              0.7953987218118809
+            ],
+            "tie": [
+              0.18969910217598382,
+              0.37137156165559726
+            ]
+          },
+          "tie": 0.26540599167459183
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 4,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i2 > i1",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -3.4874180746021937,
+            -1.44761989540065
+          ],
+          "d": -2.467518985001422,
+          "excludesZero": true,
+          "se": 0.5203566783677407
+        },
+        "items": [
+          "i1",
+          "i3"
+        ],
+        "model": {
+          "aWins": 0.006115811463634903,
+          "bWins": 0.85057741519515,
+          "bootstrapCi95": {
+            "aWins": [
+              0.0046107619870814345,
+              0.015747169485151372
+            ],
+            "bWins": [
+              0.8082335603935925,
+              0.8473653785203121
+            ],
+            "tie": [
+              0.14723977221161913,
+              0.17825465771018192
+            ]
+          },
+          "tie": 0.14330677334121503
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 8,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i3 > i1",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -0.8100224450235095,
+            0.8100224450235095
+          ],
+          "d": 0,
+          "excludesZero": false,
+          "se": 0.4132767576650559
+        },
+        "items": [
+          "i1",
+          "i4"
+        ],
+        "model": {
+          "aWins": 0.25081950029358796,
+          "bWins": 0.25081950029358796,
+          "bootstrapCi95": {
+            "aWins": [
+              0.22289558395616269,
+              0.2837844497486206
+            ],
+            "bWins": [
+              0.22289558395616263,
+              0.2837844497486206
+            ],
+            "tie": [
+              0.4324311005027588,
+              0.5542088320876747
+            ]
+          },
+          "tie": 0.49836099941282413
+        },
+        "observed": {
+          "aWinRate": 0.5,
+          "aWins": 4,
+          "bWins": 4,
+          "comparisons": 8,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i1 = i4",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -2.570106596444165,
+            -0.769517498942947
+          ],
+          "d": -1.669812047693556,
+          "excludesZero": true,
+          "se": 0.4593339534441883
+        },
+        "items": [
+          "i1",
+          "i5"
+        ],
+        "model": {
+          "aWins": 0.025149989907073768,
+          "bWins": 0.7094440184183346,
+          "bootstrapCi95": {
+            "aWins": [
+              0.010269260937075206,
+              0.08986023300939061
+            ],
+            "bWins": [
+              0.5387682053350121,
+              0.7953987218118809
+            ],
+            "tie": [
+              0.18969910217598382,
+              0.37137156165559726
+            ]
+          },
+          "tie": 0.26540599167459183
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 4,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0.5,
+          "ties": 4
+        },
+        "ordering": "i5 > i1",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -1.6161258427398884,
+            0.0207119681241571
+          ],
+          "d": -0.7977069373078656,
+          "excludesZero": false,
+          "se": 0.41756066603674624
+        },
+        "items": [
+          "i2",
+          "i3"
+        ],
+        "model": {
+          "aWins": 0.09669088213962818,
+          "bWins": 0.4767217476639729,
+          "bootstrapCi95": {
+            "aWins": [
+              0.05551068162940587,
+              0.18820404613474387
+            ],
+            "bWins": [
+              0.3269071812133393,
+              0.6290854620364141
+            ],
+            "tie": [
+              0.31540385633417994,
+              0.5084518575762118
+            ]
+          },
+          "tie": 0.426587370196399
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 0,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 1,
+          "ties": 4
+        },
+        "ordering": "i3 > i2",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            0.7695174989429467,
+            2.570106596444165
+          ],
+          "d": 1.669812047693556,
+          "excludesZero": true,
+          "se": 0.4593339534441884
+        },
+        "items": [
+          "i2",
+          "i4"
+        ],
+        "model": {
+          "aWins": 0.7094440184183346,
+          "bWins": 0.025149989907073768,
+          "bootstrapCi95": {
+            "aWins": [
+              0.5387682053350121,
+              0.7953987218118809
+            ],
+            "bWins": [
+              0.010269260937075206,
+              0.08986023300939061
+            ],
+            "tie": [
+              0.18969910217598382,
+              0.37137156165559726
+            ]
+          },
+          "tie": 0.26540599167459183
+        },
+        "observed": {
+          "aWinRate": 0.5,
+          "aWins": 4,
+          "bWins": 0,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0.5,
+          "ties": 4
+        },
+        "ordering": "i2 > i4",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -0.7300823070638629,
+            0.7300823070638629
+          ],
+          "d": -5.551115123125783e-17,
+          "excludesZero": false,
+          "se": 0.3724909729917668
+        },
+        "items": [
+          "i2",
+          "i5"
+        ],
+        "model": {
+          "aWins": 0.25081950029358796,
+          "bWins": 0.25081950029358796,
+          "bootstrapCi95": {
+            "aWins": [
+              0.22289558395616269,
+              0.2837844497486206
+            ],
+            "bWins": [
+              0.22289558395616269,
+              0.2837844497486206
+            ],
+            "tie": [
+              0.4324311005027588,
+              0.5542088320876747
+            ]
+          },
+          "tie": 0.49836099941282413
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 0,
+          "comparisons": 8,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 1,
+          "ties": 8
+        },
+        "ordering": "i5 > i2",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            1.434012431289003,
+            3.501025538713841
+          ],
+          "d": 2.467518985001422,
+          "excludesZero": true,
+          "se": 0.5272992620981729
+        },
+        "items": [
+          "i3",
+          "i4"
+        ],
+        "model": {
+          "aWins": 0.85057741519515,
+          "bWins": 0.006115811463634903,
+          "bootstrapCi95": {
+            "aWins": [
+              0.8082335603935925,
+              0.8473653785203121
+            ],
+            "bWins": [
+              0.0046107619870814345,
+              0.015747169485151372
+            ],
+            "tie": [
+              0.14723977221161913,
+              0.17825465771018192
+            ]
+          },
+          "tie": 0.14330677334121503
+        },
+        "observed": {
+          "aWinRate": 1,
+          "aWins": 4,
+          "bWins": 0,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i3 > i4",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            0.015739976460228067,
+            1.579673898155503
+          ],
+          "d": 0.7977069373078656,
+          "excludesZero": true,
+          "se": 0.39896273512634567
+        },
+        "items": [
+          "i3",
+          "i5"
+        ],
+        "model": {
+          "aWins": 0.4767217476639729,
+          "bWins": 0.09669088213962818,
+          "bootstrapCi95": {
+            "aWins": [
+              0.3269071812133394,
+              0.6290854620364141
+            ],
+            "bWins": [
+              0.05551068162940587,
+              0.18820404613474387
+            ],
+            "tie": [
+              0.31540385633417994,
+              0.5084518575762118
+            ]
+          },
+          "tie": 0.426587370196399
+        },
+        "observed": {
+          "aWinRate": 0.5,
+          "aWins": 4,
+          "bWins": 0,
+          "comparisons": 8,
+          "distinctJudges": 8,
+          "distinctRounds": 4,
+          "tieRate": 0.5,
+          "ties": 4
+        },
+        "ordering": "i3 > i5",
+        "sameComponent": true
+      },
+      {
+        "contrast": {
+          "ci95": [
+            -2.5934154256678603,
+            -0.7462086697192519
+          ],
+          "d": -1.669812047693556,
+          "excludesZero": true,
+          "se": 0.471226213252196
+        },
+        "items": [
+          "i4",
+          "i5"
+        ],
+        "model": {
+          "aWins": 0.025149989907073768,
+          "bWins": 0.7094440184183346,
+          "bootstrapCi95": {
+            "aWins": [
+              0.010269260937075206,
+              0.08986023300939061
+            ],
+            "bWins": [
+              0.5387682053350121,
+              0.7953987218118809
+            ],
+            "tie": [
+              0.18969910217598382,
+              0.37137156165559726
+            ]
+          },
+          "tie": 0.26540599167459183
+        },
+        "observed": {
+          "aWinRate": 0,
+          "aWins": 0,
+          "bWins": 4,
+          "comparisons": 4,
+          "distinctJudges": 4,
+          "distinctRounds": 4,
+          "tieRate": 0,
+          "ties": 0
+        },
+        "ordering": "i5 > i4",
+        "sameComponent": true
+      }
+    ],
+    "sensitivity": {
+      "grid": [
+        {
+          "lambda": 0.1,
+          "nll": 55.12136863718751,
+          "objective": 55.649520837610375,
+          "primary": false,
+          "spearmanVsPrimary": [
+            0.9428571428571428
+          ],
+          "theta": 1.2347201731989457
+        },
+        {
+          "lambda": 1,
+          "nll": 56.03822643398501,
+          "objective": 59.209334115987055,
+          "primary": true,
+          "spearmanVsPrimary": [
+            1
+          ],
+          "theta": 0.9934654180187048
+        },
+        {
+          "lambda": 10,
+          "nll": 64.48073268146217,
+          "objective": 71.38454055077692,
+          "primary": false,
+          "spearmanVsPrimary": [
+            0.9428571428571428
+          ],
+          "theta": 0.6353061827231006
+        }
+      ],
+      "orderingStableAcrossGrid": false,
+      "primaryLambda": 1
+    },
+    "suggestions": {
+      "candidates": [],
+      "method": "期望 Fisher 信息（Davidson 模型，与未知比较结果无关）+ 覆盖约束；不假设新比较的任何结果",
+      "pairCap": 3,
+      "totalEligiblePairs": 0
+    }
+  }
+}

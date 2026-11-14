@@ -6,5 +6,20 @@
     10
   ],
   "judgeCap": 5,
-  "seed": 31
+  "seed": 31,
+  "analysis": {
+    "topK": 3,
+    "regularization": [
+      0.1,
+      1,
+      10
+    ],
+    "primaryLambda": 1,
+    "lambdaEta": 1,
+    "judgeCap": 5,
+    "bootstrapReplicates": 1000,
+    "minComparisons": 3,
+    "suggestionCount": 5,
+    "seed": 31
+  }
 }

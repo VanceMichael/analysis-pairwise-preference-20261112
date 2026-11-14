@@ -1,0 +1,43 @@
+{
+  "dataFingerprint": "c72348591712cea3fe4d548a26cc4345cc1f3877932309f1ca9d0670664d3727",
+  "order": [
+    "x",
+    "z",
+    "y"
+  ],
+  "betas": {
+    "x": 0.1579889464,
+    "z": -0.0240695599,
+    "y": -0.1339193865
+  },
+  "theta": 0.5845738517,
+  "outcomeCounts": {
+    "left": 3,
+    "right": 2,
+    "tie": 2
+  },
+  "observedXY": {
+    "comparisons": 4,
+    "aWins": 2,
+    "bWins": 1,
+    "ties": 1,
+    "aWinRate": 0.5,
+    "tieRate": 0.25,
+    "distinctJudges": 4,
+    "distinctRounds": 1
+  },
+  "sensitivity": [
+    {
+      "lambda": 0.5,
+      "theta": 0.5863050103
+    },
+    {
+      "lambda": 1,
+      "theta": 0.5845738517
+    },
+    {
+      "lambda": 2,
+      "theta": 0.5821223939
+    }
+  ]
+}
